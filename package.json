@@ -1,0 +1,27 @@
+{
+  "name": "nightwatch-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nw:ch": "nightwatch --env chrome",
+    "nw:ff": "nightwatch --env firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^0.9.19",
+    "standard": "^10.0.3",
+    "chai": "^4.1.2",
+    "chromedriver": "^2.34.1",
+    "cucumber": "^3.2.1",
+    "geckodriver": "^1.10.0",
+    "nightwatch-cucumber": "^8.2.13",
+    "phantomjs-prebuilt": "^2.1.16",
+    "request": "^2.83.0",
+    "selenium-server": "^3.8.1"
+  },
+  "dependencies": {}
+}
